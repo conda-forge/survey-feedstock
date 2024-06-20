@@ -1,5 +1,5 @@
 {% set name = "survey" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/survey-{{ version }}.tar.gz
-  sha256: b8dc7c223dbc2e2f50423abf4ba38fe647edd8af290eed8dc812ba04fff1730f
+  sha256: 253d2d70d05178d75f6d9af04a0bf4385701cfd1e9d4de491789cff685df4c9b
 
 build:
   noarch: python
